@@ -2,7 +2,7 @@ package com.globant.recipeapp
 
 data class Category(
     val strCategory: String,
-    val strCategoryThmb: String,
+    val strCategoryThumb: String,
     val strCategoryDescription: String
 )
 
