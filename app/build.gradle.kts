@@ -41,7 +41,14 @@ android {
 
 dependencies {
 
-
+    //Compose View Model
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    //Network Calls
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    //Json to kotlin Object Mapping
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //Image Loading
+    implementation("io.coil-kt:coil-compose:2.5.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
